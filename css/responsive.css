@@ -1,0 +1,476 @@
+@media only screen and (max-width: 575px) and (min-width: 320px) {
+    nav .navbar-brand {
+        background: transparent !important;
+       
+    }
+    nav button i {
+        color: #fff;
+    }
+    nav .navbar-toggler:focus { 
+        box-shadow: none;
+   }
+   nav ul {
+       background: #d6c6b2;
+       text-align: center;
+       margin-top: 20px;
+   }
+   nav ul li .nav-link.active::before {
+	height: 0px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+   nav ul li {
+       padding: 2px 0px;
+   }
+   nav ul li::before {
+ 
+    background: none;
+     
+   }
+   nav ul li:hover a::before{
+    height: 0;
+}
+   nav ul li:hover a {
+          color: #fff !important;
+   }
+   nav ul li.active {
+          background: none; 
+   }
+   nav ul li a.active{
+        color: #e23e38!important; 
+   }
+    #banner-part .banner-item .img{
+      display: none;
+       
+    }
+    #banner-part .banner-text {
+        margin-bottom: -48px;
+    }
+    #banner-part .banner-text .text {
+       
+     margin-right: 0px;
+        margin-top: 0px; 
+    }
+    #banner-part .banner-text .text h2{
+        font-size: 60px;
+        position: static;
+
+    }
+    #banner-part .banner-text .text h3 {
+        position: static;
+        font-size: 57px;
+        margin-bottom: 52px;
+    }
+    #banner-part .banner-text .text a {
+        padding: 6px 11px;
+        margin-right: 35px;
+    }
+    #about-part .img{
+        margin-top: 35px;
+    }
+    #about-part .title{
+        margin-top: 24px;
+    }
+    #about-part .text {
+        margin-top: 20px;
+    }
+    #about-part .icon a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 5px;
+        font-size: 20px; 
+    }
+    #testi-part .testi-slider .item {
+        text-align: center;
+    }
+    .slick-slide img {
+         display: inline-block;
+    }
+    #testi-part .testi-slider .item .text {
+        margin-bottom: 60px;
+        position: static; 
+
+    }
+    #testi-part .testi-slider .item .text p {
+        width: 323px;
+    }
+    #portfolio-part {
+        position: relative;
+    }
+    #portfolio-part .top {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #portfolio-part .down{
+        margin-top: 210px;
+    }
+    #portfolio-part .title {
+        margin: 27px;
+    }
+    #portfolio-part .title h3 {
+        text-align: center;
+    }
+    #portfolio-part .text ul li {
+        
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: 16px;
+        margin-right: 20px;
+        border: 1px solid #fff;
+        padding: 4px 8px;
+    }
+    #blog-part .left-item .text1 {
+         display: initial;
+    }
+    #blog-part .left-item .text1 .img {
+        width: 100%;
+       
+    }
+    #blog-part .left-item .text1 .img-text {
+        width: 100%;
+       margin-left: 0px;
+    }
+    #blog-part .left-item .text1 .img-text .button .right {
+        padding-left: 43%;
+    }
+    #blog-part .left-item .text1 .img-text .post {
+        margin-right: 24px;
+    }
+    #blog-part .left-item .text1 .img-text .button {
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+    #blog-part .right-item .text2 .img-text .post {
+        margin-right: 26px;
+    }
+    #blog-part .right-item .text2 .img-text {
+        margin-left: 5px;
+    }
+    #blog-part .right-item .text2 .img-text .button .right {
+        padding-left: 41%;
+        
+    }
+    footer .item .icon {
+        padding-bottom: 20px;
+    }
+    /*==========================
+       responsive end
+    ============================*/
+}
+@media only screen and (max-width: 767px) and (min-width: 576px){
+    nav .navbar-brand {
+        background: transparent !important;
+       
+    }
+    nav button i {
+        color: #fff;
+    }
+    nav .navbar-toggler:focus { 
+        box-shadow: none;
+   }
+   nav ul {
+       background: #d6c6b2;
+       text-align: center;
+       margin-top: 20px;
+   }
+   nav ul li .nav-link.active::before {
+	height: 0px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+   nav ul li {
+       padding: 2px 0px;
+   }
+   nav ul li::before {
+ 
+    background: none;
+     
+   }
+   nav ul li:hover a::before{
+    height: 0;
+}
+   nav ul li:hover a {
+          color: #fff !important;
+   }
+   nav ul li.active {
+          background: none; 
+   }
+   nav ul li a.active{
+        color: #e23e38!important; 
+   }
+    #banner-part .banner-item .img{
+      display: none;
+       
+    }
+    #banner-part .banner-text {
+        margin-bottom: -48px;
+    }
+    #banner-part .banner-text .text {
+       text-align: center;
+     margin-right: 0px;
+        margin-top: 0px; 
+    }
+    #banner-part .banner-text .text h2{
+        font-size: 60px;
+        position: static;
+
+    }
+    #banner-part .banner-text .text h3 {
+        position: static;
+        font-size: 57px;
+        margin-bottom: 52px;
+    }
+    #banner-part .banner-text .text a {
+        padding: 6px 11px;
+        margin-right: 35px;
+    }
+    #about-part .img{
+        margin-top: 35px;
+    }
+    #about-part .title{
+        margin-top: 24px;
+    }
+    #about-part .text {
+        margin-top: 20px;
+    }
+    #about-part .icon a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 5px;
+        font-size: 20px; 
+    }
+    #testi-part .testi-slider .item {
+        text-align: center;
+    }
+    .slick-slide img {
+         display: inline-block;
+    }
+    #testi-part .testi-slider .item .text {
+        margin-bottom: 60px;
+        position: static; 
+
+    }
+    #testi-part .testi-slider .item .text p {
+        width: 250px;;
+    }
+    #portfolio-part {
+        position: relative;
+    }
+    #portfolio-part .top {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    #portfolio-part .down{
+        margin-top: 145px;
+    }
+    #portfolio-part .title {
+        margin: 27px;
+    }
+    #portfolio-part .title h3 {
+        text-align: center;
+    }
+    #portfolio-part .text{
+        text-align: center;
+    }
+    #portfolio-part .text ul li {
+        
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: 16px;
+        margin-right: 5px;
+        border: 1px solid #fff;
+        padding: 4px 8px;
+    }
+    #portfolio-part .port-img .overlay .text {
+         margin-top: 0px;
+    }
+    #portfolio-part .port-img .overlay .text a i {
+        margin-top: 50%;
+        margin-bottom: 39px;
+    }
+    #blog-part .left-item .text1 {
+         display: initial;
+    }
+    #blog-part .left-item .text1 .img {
+        width: 100%;
+       
+    }
+    #blog-part .left-item .text1 .img-text {
+        width: 100%;
+       margin-left: 0px;
+    }
+    #blog-part .left-item .text1 .img-text .button .right {
+        padding-left: 62%;
+    }
+    #blog-part .left-item .text1 .img-text .post {
+        margin-right: 210px;
+    }
+    #blog-part .left-item .text1 .img-text .button {
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+    #blog-part .right-item .text2 .img-text .post {
+        margin-right: 206px;
+    }
+    #blog-part .right-item .text2 .img-text {
+        margin-left: 5px;
+    }
+    #blog-part .right-item .text2 .img-text .button .right {
+        padding-left: 61%;
+        
+    }
+    footer .item .icon {
+        padding-bottom: 20px;
+    }
+    /*==========================
+       responsive end
+    ============================*/
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    nav .navbar-brand {
+        background: transparent !important;
+       
+    }
+    nav button i {
+        color: #fff;
+    }
+    nav .navbar-toggler:focus { 
+        box-shadow: none;
+   }
+   nav ul {
+       background: #d6c6b2;
+       text-align: center;
+       margin-top: 20px;
+       position: relative;
+       z-index: 9999;
+   }
+   nav ul li .nav-link.active::before {
+	height: 0px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+   nav ul li {
+       padding: 2px 0px;
+   }
+   nav ul li::before {
+ 
+    background: none;
+     
+   }
+   nav ul li:hover a::before{
+    height: 0;
+}
+   nav ul li:hover a {
+          color: #fff !important;
+   }
+   nav ul li.active {
+          background: none; 
+   }
+   nav ul li a.active{
+        color: #e23e38!important; 
+   }
+    #banner-part .banner-item .img{
+     
+       
+    }
+    #banner-part .banner-text {
+            text-align: center;
+    }
+    #banner-part .banner-text .text p {
+        position: relative;
+        z-index: 99;
+    }
+    #banner-part .banner-text .text {
+      
+        
+    }
+    #banner-part .banner-text .text h2{
+        
+      z-index: 99;
+
+    }
+    #banner-part .banner-text .text h3 {
+       
+        
+        
+    }
+    #banner-part .banner-text .text a {
+        position: relative;
+        z-index: 99;
+    }
+    #about-part .img{
+        margin-top: 35px;
+    }
+    #about-part .title{
+        margin-top: 24px;
+        margin-left: 142px;
+    }
+    #about-part .text {
+        margin-top: 52px;
+        text-align: center;
+    }
+    #about-part .icon a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 5px;
+        font-size: 20px; 
+    }
+    #testi-part .testi-slider .item {
+      
+    }
+    .slick-slide img {
+         
+    }
+    #testi-part .testi-slider .item .text {
+ 
+
+    }
+    #testi-part .testi-slider .item .text p {
+        
+    }
+
+    #portfolio-part .text ul li {
+        margin-bottom: 0px;
+        font-weight: 400;
+    }
+    #portfolio-part .port-img .overlay .text {
+         margin-top: 0;
+    }
+    #portfolio-part .port-img .overlay .text a i {
+        margin-bottom: 20px;
+        margin-top: 98px;
+    }
+    #portfolio-part .title {
+        margin-bottom: 22px;
+    }
+    #blog-part .right-item {
+        margin-left: 135px;
+    }
+    footer .item .icon {
+        padding-bottom: 20px;
+    }
+    /*==========================
+       responsive end
+    ============================*/
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    #banner-part .banner-text .text h2{
+        z-index: 99;
+    }
+ 
+    #banner-part .banner-text .text a {
+        position: relative;
+        z-index: 99;
+    }
+    #testi-part .testi-slider .item .text p {
+        width: 255px;
+    }
+}

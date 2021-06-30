@@ -1,0 +1,1014 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.main{
+   display: flex;
+}
+/*=========================================
+        navbar start here
+===========================================*/
+nav{
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+}
+nav .img img{
+    width: 100%;
+}
+nav ul li a{
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4s;
+}
+nav ul li{
+    margin-right: 20px;
+    position: relative;
+    z-index: 1000;
+}
+nav ul li a::before {
+	position: absolute;
+	content: "";
+	top: -30px;
+	left: 4px;
+	width: 92%;
+	height: 0px;
+	background: #d6c6b2;
+	z-index: -1;
+    transition: .4s;
+}
+nav ul li .nav-link.active::before {
+    height: 80px;
+}
+nav ul li .nav-link.active{
+    color: #08080c !important;
+}
+nav ul li:hover a::before{
+    height: 80px;
+}
+/*=========================================
+        navbar end here
+===========================================*/
+
+/*=========================================
+        banner start here
+===========================================*/
+#banner-part{
+    background-color: #08080c;
+    width: 100%;
+}
+#banner-part .banner-text{
+    padding: 101px 0;
+    text-align: right;
+    margin-top: 75px;
+}
+#banner-part .banner-text .text {
+	line-height: 0px;
+	margin-right: 83px;
+	margin-top: 63px;
+}
+#banner-part .banner-text .text p{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner-part .banner-text .text h2{
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 102px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#banner-part .banner-text .text h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 85px;
+    color: #fff;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 99;
+    margin-bottom: 40px;
+}
+#banner-part .banner-item .img img{
+    position: absolute;
+    top: 0;
+    left: 22%;
+
+}
+#banner-part .banner-text .text a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff; 
+    text-transform: uppercase;
+    background: transparent;
+    padding: 10px 26px;
+    margin-right: 10px;
+    border: 1px solid #d6c6b2;
+    transition: .4s;
+}
+#banner-part .banner-text .text a:hover{
+    background: #d6c6b2;
+    color: #08080c;
+    border-color: #d6c6b2;
+    box-shadow: 0px 0px 3px 1px #d6c6b2;
+}
+/*=========================================
+        banner end here
+===========================================*/
+/*=========================================
+        about start here
+===========================================*/
+#about-part{
+    background-color: #282828;
+    color: #fff;
+    padding-bottom: 50px;
+}
+#about-part .img,
+#about-part .title
+{
+    margin-top: 95px;
+}
+#about-part .img img{
+    width: 100%;
+}
+#about-part .text{
+    margin-top: 64px;
+}
+#about-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 38px;
+}
+#about-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #d6c6b2;
+}
+#about-part .icon h3{
+    margin-bottom: 32px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #d6c6b2;
+    text-transform: capitalize;
+}
+#about-part .icon a{
+    text-align: center;
+}
+#about-part .icon a i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-right: 10px;
+    font-size: 22px;
+    color: #fff;
+    transition: .4s;
+}
+#about-part .icon a:hover i{
+    background: #d6c6b2;
+    color: #08080c;
+    border-color: #d6c6b2;
+    box-shadow: 0px 0px 3px 1px #d6c6b2;
+    
+}
+/*=========================================
+        about end here
+===========================================*/
+/*=========================================
+        service start here
+===========================================*/
+#service-part{
+    background: url(../images/service-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+}
+#service-part .title{
+    text-align: center;
+    padding: 50px 0;
+}
+#service-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #d6c6b2;
+}
+#service-part .service-slider .item{
+    width: 32%;
+    text-align: center;
+    margin-right: 10px;
+}
+#service-part .service-slider .item .img img{
+    margin: 0 auto;
+}
+#service-part .service-slider .item .text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin: 33px 0;
+}
+#service-part .service-slider .item .text{
+    margin-bottom: 60px;
+}
+#service-part .service-slider .item .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cccccc;
+    line-height: 25px;
+}
+#service-part .main{
+    justify-content: center;
+    align-items: center;
+}
+#service-part  .prev-button{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+    transition: .4s;
+    cursor: pointer;
+}
+#service-part  .next-button{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    transition: .4s;
+    cursor: pointer;
+}
+#service-part .prev {
+	position: absolute;
+	top: -3px;
+	left: -14px;
+	color: #f1f1f1;
+	font-size: 30px;
+	transition: .4s;
+	cursor: pointer;
+}
+#service-part .next {
+	position: absolute;
+	top: -3px;
+	right: -14px;
+	color: #f1f1f1;
+	font-size: 30px;
+	transition: .4s;
+	cursor: pointer;
+}
+#service-part .service-slider .slick-center h3{
+    color: #d6c6b2 !important;
+}
+#service-part .prev-button:hover,
+#service-part .next-button:hover
+{
+    background: #d6c6b2;
+    border-color: #d6c6b2;
+    box-shadow: 0px 0px 1px 1px #d6c6b2;
+}
+/*=========================================
+        service end here
+===========================================*/
+
+/*=========================================
+       portfolio start here
+==========================================*/
+#portfolio-part{
+    background-color: #282828;
+    padding: 50px 0;
+}
+#portfolio-part .title{
+    margin-bottom: 60px;
+}
+#portfolio-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #d6c6b2;
+}
+#portfolio-part .port-img .mix{
+    padding: 10px 0;
+    
+}
+#portfolio-part .port-img .img{
+    position: relative;
+}
+#portfolio-part .port-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(215, 189, 170,.8);
+    text-align: center;
+    transition: .4s;
+    opacity: 0;
+}
+#portfolio-part .port-img .overlay .text{
+    margin-top: 50%; 
+}
+#portfolio-part .port-img .overlay .text a i{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background: #444444;
+    border-radius: 50%;
+    line-height: 50px;
+    color: #fff;
+    margin-bottom: 122px;
+
+}
+#portfolio-part .port-img .overlay .text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+}
+#portfolio-part .port-img .overlay .text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+}
+#portfolio-part .port-img .img img{
+    width: 100%;
+}
+#portfolio-part .text ul{
+    padding: 0;
+}
+#portfolio-part .text ul li{
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4s;
+}
+#portfolio-part .mixitup-control-active{
+    color: #cdbeab !important;
+    padding-left: 30px;
+
+}
+#portfolio-part .port-img .mix:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+#portfolio-part .button-down{
+    text-align: center;
+    margin-top: 60px;
+}
+#portfolio-part .button-down a{
+    background: #d6c6b2;
+    padding: 10px 20px;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+/*=========================================
+       portfolio end here
+==========================================*/
+/*==========================
+   testi part start here
+==========================*/
+#testi-part{
+    background: url(../images/testi-bg-img.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+}
+#testi-part .title{
+    text-align: center;
+    padding: 50px 0;
+}
+#testi-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #d6c6b2;
+}
+#testi-part .testi-slider{
+    
+}
+#testi-part .testi-slider .item{
+    width: 32%;
+    position: relative;
+}
+#testi-part .testi-slider .item .img img{
+   
+}
+#testi-part .testi-slider .item .text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+#testi-part .testi-slider .item .text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+   
+}
+#testi-part .testi-slider .item .text i{
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #fff;
+}
+#testi-part .testi-slider .item .text{
+    margin-bottom: 60px;
+    position: absolute;
+    top: 23px;
+    left: 192px;
+}
+#testi-part .testi-slider .item .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cccccc;
+    line-height: 25px;
+    width: 346px;
+}
+#testi-part .main{
+    justify-content: center;
+    align-items: center;
+}
+#testi-part  .fast-button{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+    transition: .4s;
+    cursor: pointer;
+}
+#testi-part  .second-button{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    transition: .4s;
+    cursor: pointer;
+}
+#testi-part .fast{
+	position: absolute;
+	top: -3px;
+	left: -14px;
+	color: #f1f1f1;
+	font-size: 30px;
+	transition: .4s;
+	cursor: pointer;
+}
+#testi-part .second{
+	position: absolute;
+	top: -3px;
+	right: -14px;
+	color: #f1f1f1;
+	font-size: 30px;
+	transition: .4s;
+	cursor: pointer;
+}
+#testi-part .testi-slider .slick-center h3{
+    color: #d6c6b2 !important;
+}
+#testi-part .fast-button:hover,
+#testi-part .second-button:hover
+{
+    background: #d6c6b2;
+    border-color: #d6c6b2;
+    box-shadow: 0px 0px 1px 1px #d6c6b2;
+}
+/*============================
+   testi part end here
+=============================*/
+/*===============================
+      price part start
+==================================*/
+#price-part{
+    padding: 50px 0;
+    background-color: #282828;
+}
+#price-part .title{
+    text-align: center;
+    padding: 50px 0;
+}
+#price-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #d6c6b2;
+}
+#price-part .ship .pack{
+    background: #333333;
+    text-align: center;
+    transition: .4s;
+    margin-top: 60px;
+    transition: .4s;
+}
+#price-part .ship .pack h4{
+    color: #222222;
+    background: #d6c6b2;
+    font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    transition: .4s;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+#price-part .ship .pack h3 {
+	color: #f1f1f1;
+    font-family: 'Oswald', sans-serif;
+	font-size: 29px;
+	font-weight: 700;
+    position: relative;
+    margin: 20px 0;
+    transition: .4s;
+    
+}
+#price-part .ship .pack h3 span{
+    font-size: 50px;
+}
+#price-part .ship .pack h3::after {
+    content: "";
+    width: 200px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: -11px;
+    left: 74px;
+    transition: .4s;
+}
+#price-part .ship .pack .list ul{
+    text-align: center;
+    padding: 10px 0;
+   
+}
+#price-part .ship .pack .list ul li{
+    color: #fff;
+    line-height: 40px;
+    transition: .4s;
+}
+#price-part .ship .pack .button{
+    padding-bottom: 35px;
+    transition: .4s;
+}
+#price-part .ship .pack .button a{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+    text-transform: uppercase;
+    transition: .4s;
+    padding: 10px 20px;
+}
+#price-part .ship .pack:hover{
+    background: #d6c6b2;
+}
+#price-part .ship .pack:hover h4{
+    box-shadow: 0px 1px 23px -6px rgb(0 0 0 / 30%);
+}
+#price-part .ship .pack:hover .button a{
+    color: #222222;
+    box-shadow: 0px 1px 23px -6px rgb(0 0 0 / 30%);
+    border-color: #d6c6b2;
+}
+#price-part .ship .pack:hover h3::after{
+    background: #c7b9a7;
+}
+#price-part .ship .pack:hover h3,
+#price-part .ship .pack:hover .list ul li{
+    color: #222222;
+}
+/*===============================
+      price part end
+==================================*/
+
+/*================================
+       blog part start here
+===================================*/
+#blog-part{
+    background-color: #333333;
+    padding: 50px 0;
+}
+#blog-part .title{
+    text-align: center;
+    padding: 50px 0;
+}
+#blog-part .title h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #d6c6b2;
+}
+#blog-part .left-item .text1{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #282828;
+    position: relative;
+}
+#blog-part .left-item .text1 .img{
+    width: 40%;
+    position: relative;
+}
+#blog-part .left-item .text1 .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(151, 140, 128,.7);
+    opacity: 0;
+    transition: .4s;
+}
+#blog-part .left-item .text1 .img .overlay .over-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+#blog-part .left-item .text1 .img .overlay .over-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+#blog-part .left-item .text1 .img .overlay .over-text{
+    padding-top: 85%;
+    transition: .4s;
+}
+#blog-part .left-item .text1 .img img{
+    width: 100%;
+}
+#blog-part .left-item .text1 .img-text{
+    width: 60%;
+    margin-left: 22px;
+
+}
+#blog-part .left-item .text1 .img-text span i{
+    color: #999999;
+}
+#blog-part .left-item .text1 .img-text span a{
+    margin-right: 5px;
+}
+#blog-part .left-item .text1 .img-text span{
+    margin-right: 8px;
+    color: #999999;
+}
+#blog-part .left-item .text1 .img-text i {
+	color: #999999;
+	
+}
+#blog-part .left-item .text1 .img-text .post{
+    margin-right: 64px;
+}
+#blog-part .left-item .text1 .img-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    transition: .4s;
+}
+#blog-part .left-item .text1 .img-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a3a3a3;
+    margin-top: 20px;
+}
+#blog-part .left-item .text1 .img-text .button{
+    margin-top: 32px;
+
+}
+#blog-part .left-item .text1 .img-text .button a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+#blog-part .left-item .text1 .img-text .button .right{
+    padding-left: 45%;
+}
+#blog-part .left-item .text1 .img-text .button a .left{
+    margin-left: 5px;
+}
+#blog-part .left-item .text1 .img-text .button i{
+    margin-right: 5px;
+}
+#blog-part .right-item{
+    width: 100%;
+    background: #d6c6b2;
+}
+#blog-part .right-item .text2{
+   
+}
+#blog-part .right-item .text2 .img{
+    position: relative;
+}
+#blog-part .right-item .text2 .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(151, 140, 128,.7);
+    opacity: 0;
+    transition: .4s;
+}
+#blog-part .right-item .text2 .img .overlay .over-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+#blog-part .right-item .text2 .img .overlay .over-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+#blog-part .right-item .text2 .img .overlay .over-text{
+    padding-top: 85%;
+    transition: .4s;
+}
+#blog-part .right-item .text2 .img img{
+    width: 100%;
+}
+#blog-part .right-item .text2 .img-text{
+   margin-left: 10px;
+    margin-top: 20px;
+}
+#blog-part .right-item .text2 .img-text span i{
+    color: #666666;
+}
+#blog-part .right-item .text2 .img-text span a{
+    margin-right: 5px;
+}
+#blog-part .right-item .text2 .img-text span{
+    margin-right: 8px;
+    color: #666666;
+}
+#blog-part .right-item .text2 .img-text i {
+	color: #666666;
+	
+}
+#blog-part .right-item .text2 .img-text .post{
+    margin-right: 110px;
+}
+#blog-part .right-item .text2 .img-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+    margin-top: 20px;
+    text-align: center;
+    transition: .4s;
+}
+#blog-part .right-item .text2 .img-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 20px;
+    text-align: center;
+}
+#blog-part .right-item .text2 .img-text .button{
+    padding-bottom: 32px;
+
+}
+#blog-part .right-item .text2 .img-text .button a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #222222;
+}
+#blog-part .right-item .text2 .img-text .button .right{
+    padding-left: 56%;
+    color: #666666;
+}
+#blog-part .right-item .text2 .img-text .button a .left{
+    margin-left: 5px;
+    
+}
+#blog-part .right-item .text2 .img-text .button i{
+    margin-right: 5px;
+    
+}
+#blog-part .left-item .text1:hover .img .overlay{
+    opacity: 1;
+}
+#blog-part .right-item .text2:hover .img .overlay{
+    opacity: 1;
+}
+#blog-part .left-item .text1:hover .img .overlay .over-text{
+    padding-left: 75%;
+    padding-top: 0%;
+}
+#blog-part .left-item .text1:hover .img-text h3{
+    color: #d6c6b2;
+}
+#blog-part .right-item .text2:hover .img .overlay .over-text{
+    padding-left: 75%;
+    padding-top: 0%;
+}
+#blog-part .button-down{
+    text-align: center;
+    margin-top: 60px;
+}
+#blog-part .button-down a{
+    background: #d6c6b2;
+    padding: 10px 20px;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+/*==============================
+       blog part end here
+===================================*/
+
+/*=================================
+   footer part start here
+====================================*/
+footer{
+    background-color: #282828;
+    padding: 50px 0;
+}
+footer .item{
+    width: 100%;
+    color: #fff;
+}
+footer .item h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+footer .item .icon h4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 66px;
+    margin-bottom: 20px;
+}
+footer .item p{
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer .item p span{
+    margin-right: 20px;
+}
+footer .item .color,
+footer .item .enve
+{
+    color: #cdbeab;
+}
+footer .item .icon a {
+    text-align: center;
+}
+footer .item .icon a i{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    transition: .4s;
+}
+footer .item2{
+    width: 100%;
+    background: #333333;
+    color: #fff;
+    padding: 20px 20px;
+}
+footer .item2 h3{
+  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+footer .item2 input{
+    background-color: transparent;
+    color: #fff;
+}
+footer .item2 .name{
+    width: 100%;
+    display: block;
+    border: 1px solid #666666;
+    color: #495057;
+    padding: 5px 0;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+footer .item2 .email{
+    width: 100%;
+    display: block;
+    border: 1px solid #666666;
+    color: #495057;
+    padding: 5px 0;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+  
+}
+footer .item2 .text-aria{
+    margin-top: 10px;
+    position: relative;
+}
+footer .item2 .text-aria textarea{
+    background: transparent;
+    width: 100%;
+    height: 145px;
+    border: 1px solid #666666;
+    color: #495057;
+    padding: 5px 0;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    resize: none;
+    
+}
+footer .item2 .text-aria button {
+	position: absolute;
+	top: 88px;
+	right: 0;
+	padding: 28px;
+	clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	border: none;
+    background: #d6c6b2;
+}
+footer .item2 .text-aria button i {
+	position: absolute;
+	top: 28px;
+	left: 29px;
+	font-size: 20px;
+}
+footer .item .icon a i:hover{
+    background: #cdbeab;
+    box-shadow: 0px 0px 3px 1px #d6c6b2;
+}
+/*=================================
+   footer part start here
+====================================*/
+#copyright-part{
+    background-color: #333333;
+    padding: 20px 0;
+    text-align: center;
+}
+#copyright-part h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
