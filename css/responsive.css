@@ -94,7 +94,7 @@
 
     }
     #testi-part .testi-slider .item .text p {
-        width: 323px;
+        width: auto;
     }
     #portfolio-part {
         position: relative;
